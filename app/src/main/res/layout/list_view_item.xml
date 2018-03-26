@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:id="@+id/magnitut_list"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="Long placeholder title that should wrap to more than 3 lines of text"
+            android:id="@+id/titlee"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/Colordetails"
+            android:textSize="12sp"
+            tools:text="autor"
+            android:id="@+id/author"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12sp"
+            tools:text="politics"
+            android:id="@+id/category"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="12sp"
+            android:textColor="@color/Colordetails"
+            tools:text="Mar 6, 2010"
+            android:id="@+id/time"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Colordetails"
+            android:layout_gravity="end"
+            android:textSize="12sp"
+            tools:text="Mar 6, 2010"
+            android:id="@+id/date"
+            />
+    </LinearLayout>
+
+</LinearLayout>
